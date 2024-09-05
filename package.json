@@ -4,9 +4,9 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "app": "cross-env NODE_ENV=development nodemon app.js",
+    "app": "set NODE_ENV=development nodemon app.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "cross-env NODE_ENV=production node app.js"
+    "start": "NODE_ENV=production node app.js"
   },
   "keywords": [],
   "author": "",
