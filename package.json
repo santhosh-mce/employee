@@ -4,9 +4,9 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "app": "set NODE_ENV=development nodemon app.js",
+    "app": "nodemon app.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "NODE_ENV=production node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
